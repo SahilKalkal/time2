@@ -9,9 +9,7 @@ x.addEventListener('click',(event)=>{
     if(item==='')
     {
     	
-    	let k=document.createElement('h2')
-       document.querySelector('body').appendChild(k)
-        k.textContent='Please enter your todo'
+    	return false;
     }
     else
     {
